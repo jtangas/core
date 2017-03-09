@@ -1,0 +1,13 @@
+{
+    "name": "jt/core",
+    "description": "Core Package for use with API",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Tangas",
+            "email": "jtangas@gmail.com"
+        }
+    ],
+    "require": {}
+}
