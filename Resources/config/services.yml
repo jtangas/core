@@ -2,3 +2,7 @@ services:
 #    jt_core.example:
 #        class: Jt\CoreBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
+    jt_core.data:
+      class: Jt\Core\Service\DataService
+      tags:
+        - { name: api_event.service }
